@@ -1,0 +1,114 @@
+/* CSS: Is where we style and adjust the elements we created in HTML */
+
+@keyframes moveLeft {
+    0%{
+        margin-left:0%;
+    
+    }
+    50%{
+        margin-left: 80%;
+        border-width: 12px;
+        border: solid green;
+        border-radius: 50%;
+
+    }
+}
+
+.navbar{
+    border:solid blue;
+    /* height:12vh; */
+    margin:1em;
+    display:flex;
+    justify-content: space-between;
+}
+
+.mainPic{
+    border:solid green;
+    height:45vh;
+    margin:1em;
+}
+.adContainer{
+    border:solid black;
+    height:25vh;
+    margin:1em;
+    justify-content: space-evenly;
+}
+.logo{
+    height:45px;
+    /* width:50%; */
+}
+
+.iconParent{
+    /* border:solid red; */
+    margin-top:5px;
+    width:50%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.icon{
+    height:30px;
+}
+.bigPicture{
+    width:100%;
+}
+.picTitle{
+    text-align:center;
+    font-family:serif;
+}
+.btnContainer{
+    /* border:solid blue; */
+    display: flex;
+    width: 100px;
+    justify-content: space-evenly;
+}
+.shop, .login{
+    font-size:19px;
+    background-color:black;
+    color:white;
+    width:33%;
+    border-radius:20px;
+}
+.shop:hover, .login:hover{
+    font-size:19px;
+    background-color:black;
+    color:lime;
+    width:33%;
+    border-radius:20px;
+}
+    
+
+    .productContainer{
+        border: solid red;
+        height: 52vh;
+        margin: 1em;
+        padding: 1em;
+    }
+
+
+    .productbox{
+        border: solid blue;
+        height: 250px;
+        width: 250px;
+        padding: 1em;
+
+    }
+
+
+    .productImage{
+        border: solid purple;
+        height: 140px;
+        width: 100%;
+    }
+
+
+    .productImage{
+        width: 100%;
+    }
+
+
+    
+
+
+    .price{
+        
+    }
